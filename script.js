@@ -13,6 +13,11 @@ clearButton.addEventListener('click', (e) => {
 })
 
 
+// Backspace
+const backspace = document.querySelector('.backspace')
+backspace.addEventListener('click', (e) => {
+    alert("Copywrights 2023, This great invention is protected under the charters of the UN")
+})
 
 // Each time a number is clicked it's entered in the array
 let numArray = [];
