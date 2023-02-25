@@ -80,7 +80,7 @@ body{
     
 }
 
-.number:hover{
+.operator:hover, .clear:hover, .backspace:hover, .equal-sign:hover, .number:hover{
     background-color: lightblue;
 
 }
@@ -95,7 +95,7 @@ body{
     
 }
 
-.operator{
+.equal-sign, .operator{
     border: solid 2px;
     height: 75px;
     width: 140px;
